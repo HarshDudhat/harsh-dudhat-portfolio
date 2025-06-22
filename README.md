@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Harsh Dudhat — Developer Portfolio
 
-## Getting Started
+Welcome! This is my personal portfolio site showcasing my projects, technical skills, certifications, and career journey in web development.
 
-First, run the development server:
+## ✨ About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio was built using **Next.js**, **TypeScript**, and **Tailwind CSS** — modern web technologies known for performance and developer experience.  
+While I primarily work with .NET, AngularJS, and SQL in my day-to-day roles, I created this portfolio with the help of **AI tools and documentation** to explore and adapt to new technologies, reflecting my ability to learn quickly and work across different stacks when needed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Project Portfolio** — Highlighting real-world applications I've worked on.
+- **Skills Visualization** — Displaying my core technical competencies.
+- **Contact Form** — Allowing direct communication.
+- **AI-Powered Cover Letter Generator** — Experimental tool that uses AI to craft tailored cover letters based on job descriptions and my background.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **Framework**: Next.js (React + TypeScript)
+- **Styling**: Tailwind CSS
+- **UI/UX**: Clean grid layout, iconography, and subtle animations
+- **Extras**: Markdown-based content management and LLM-powered features
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is both a **professional showcase** and a **personal learning exercise** — bridging my core .NET development experience with modern front-end tools. It represents my passion for continuous learning and adaptability in the fast-evolving tech landscape.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📫 Contact
 
-## Deploy on Vercel
+- 📧 dudhatharsh2701@gmail.com
+- 🌐 [LinkedIn](https://linkedin.com/in/harsh-dudhat-908a581b4)
+- 📍 Navsari, India
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks for stopping by!
