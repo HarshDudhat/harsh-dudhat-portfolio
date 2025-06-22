@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function Footer() {
   return (
-    <footer className="bg-primary-foreground border-t">
+    <footer className="border-t bg-background">
       <div className="container mx-auto px-4 md:px-6 py-6 flex flex-col sm:flex-row items-center justify-between">
         <p className="text-sm text-muted-foreground mb-4 sm:mb-0">
           © {new Date().getFullYear()} Harsh Dudhat. All rights reserved.

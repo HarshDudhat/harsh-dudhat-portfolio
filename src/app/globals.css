@@ -4,6 +4,8 @@
 
 @layer base {
   :root {
+    --section: 0 0% 98%;
+    --section-dark: 240 10% 10%;
     --background: 220 13% 95%;
     --foreground: 224 7.1% 4.1%;
     --card: 0 0% 100%;
@@ -26,6 +28,7 @@
     --radius: 0.5rem;
   }
   .dark {
+    --section: var(--section-dark);
     --background: 222.2 84% 4.9%;
     --foreground: 0 0% 98%;
     --card: 222.2 84% 4.9%;

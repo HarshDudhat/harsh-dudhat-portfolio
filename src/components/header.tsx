@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu, Code } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
   { href: "#about", label: "About Me" },
@@ -49,17 +50,20 @@ export function Header() {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-foreground transition-colors hover:text-primary"
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
+          <div className="hidden md:flex items-center space-x-6">
+            <nav className="flex items-center space-x-6">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium text-foreground transition-colors hover:text-primary"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+            <ThemeToggle />
+          </div>
 
           {/* Mobile Navigation */}
           <div className="md:hidden">
@@ -90,6 +94,9 @@ export function Header() {
                       </a>
                     </SheetClose>
                   ))}
+                  <div className="pt-6">
+                    <ThemeToggle />
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>

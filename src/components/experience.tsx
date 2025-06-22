@@ -33,7 +33,7 @@ const experienceData = [
 
 export function Experience() {
   return (
-    <section id="experience" className="w-full py-20 lg:py-32 bg-background">
+    <section id="experience" className="w-full py-20 lg:py-32 bg-section">
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-8">
           <div className="text-center">

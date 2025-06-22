@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="w-full h-screen min-h-[600px] flex items-center justify-center bg-background"
+      className="w-full h-screen min-h-[600px] flex items-center justify-center bg-section"
     >
       <div className="container mx-auto px-4 md:px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
@@ -24,7 +24,11 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" asChild>
+            <Button
+              size="lg"
+              asChild
+              className="bg-gradient-to-r from-primary to-accent text-white hover:brightness-110 transition"
+            >
               <a href="#projects">
                 View My Work
                 <ArrowDown className="ml-2 h-5 w-5" />

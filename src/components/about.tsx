@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section id="about" className="w-full py-20 lg:py-32 bg-card">
+    <section id="about" className="w-full py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-12">
           <div className="text-center max-w-4xl mx-auto space-y-6">

@@ -11,13 +11,17 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Inter", "sans-serif"],
-        headline: ["Inter", "sans-serif"],
+        body: ["Poppins", "sans-serif"],
+        headline: ["Poppins", "sans-serif"],
         code: ["monospace"],
       },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        section: {
+          DEFAULT: "hsl(var(--section))",
+          dark: "hsl(var(--section-dark))",
+        },
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
