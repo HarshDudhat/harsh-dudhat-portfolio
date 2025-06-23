@@ -12,7 +12,6 @@ While I primarily work with .NET, AngularJS, and SQL in my day-to-day roles, I c
 - **Project Portfolio** — Highlighting real-world applications I've worked on.
 - **Skills Visualization** — Displaying my core technical competencies.
 - **Contact Form** — Allowing direct communication.
-- **AI-Powered Cover Letter Generator** — Experimental tool that uses AI to craft tailored cover letters based on job descriptions and my background.
 
 ## 🛠 Tech Stack
 
